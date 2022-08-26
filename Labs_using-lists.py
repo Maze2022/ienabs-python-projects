@@ -31,5 +31,6 @@ users += ['andy', 'wanda', 'jim']
 assert users == ['kevin', 'melody', 'alice', 'andy', 'wanda', 'jim'], f"Expected 'users' to be ['kevin', 'melody', 'alice', 'andy', 'wanda', 'jim'] but got: {repr(users)}"
 
 #7) Slice the users lists to return the 3rd and 4th items and assign the result to 'center_users'
+center_users = users[2:4] 
 
 assert center_users == ['alice', 'andy'], f"Expected 'users' to be ['alice', 'andy'] but got: {repr(center_users)}"
