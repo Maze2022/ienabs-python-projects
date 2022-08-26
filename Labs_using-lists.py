@@ -4,6 +4,9 @@ users = []
 assert users == [], f"Expected 'users' to be [] but got: {repr(users)}"
 
 # 2) Add 'kevin', 'bob', and 'alice' to the users list in that order without reassigning the variable.
+users.append('kevin')
+users.append('bob')
+users.append('alice')
 
 assert users == ['kevin', 'bob', 'alice'], f"Expected 'users' to be ['kevin', 'bob', 'alice'] but got: {repr(users)}"
 
