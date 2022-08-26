@@ -11,6 +11,7 @@ users.append('alice')
 assert users == ['kevin', 'bob', 'alice'], f"Expected 'users' to be ['kevin', 'bob', 'alice'] but got: {repr(users)}"
 
 # 3) Remove 'bob' from the users list without reassigning  the variable.
+del users[1]
 
 assert users == ['kevin', 'alice'], f"Expected 'users' to be ['kevin', 'alice'] but got: {repr(users)}"
 
