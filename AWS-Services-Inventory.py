@@ -20,6 +20,12 @@ print(len(AWS_serv_list))
 del AWS_serv_list [3]
 del AWS_serv_list [7]
 
+# 5) Print the new list and length of the list
+print(len(AWS_serv_list))
+
+
+
+
 
 
 
