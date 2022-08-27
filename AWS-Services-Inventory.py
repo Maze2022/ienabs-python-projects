@@ -16,3 +16,11 @@ AWS_serv_list.insert(8, "S3")
 print(len(AWS_serv_list))
 
 
+# 4) Remove two specific services from the list by name or by index
+del AWS_serv_list [3]
+del AWS_serv_list [7]
+
+
+
+
+
