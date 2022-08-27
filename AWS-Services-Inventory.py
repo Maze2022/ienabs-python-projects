@@ -12,4 +12,7 @@ AWS_serv_list.insert(6, "SNS")
 AWS_serv_list.insert(7, "Lightsail")
 AWS_serv_list.insert(8, "S3")
 
+# 3) Print the list and length of the list
+print(len(AWS_serv_list))
+
 
