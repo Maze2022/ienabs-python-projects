@@ -15,6 +15,7 @@ assert emails == {
 }, f"Expected `emails` to be {{'ashley': 'ashley@example.com', 'craig': 'craig@example.com', 'elizabeth': 'elizabeth@example.com'}} but got: {repr(emails)}"
 
 # 3) Remove 'craig' from the emails dictionary without reassigning the variable.
+del emails['craig']
 
 assert emails == {
     "ashley": "ashley@example.com",
