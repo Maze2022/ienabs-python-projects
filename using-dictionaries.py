@@ -50,6 +50,7 @@ assert email_list == [
 ], f"Expected `email_list` to be ['ashely@example.com', 'elizabeth@example.com', 'dalton@example.com'] but got: {repr(email_list)}"
 
 # 7) Return a list of tuples called `pairs` representing the key/value pairs in `emails`.
+pairs = list(emails.items())
 
 assert pairs == [
     ("ashley", "ashley@example.com"),
