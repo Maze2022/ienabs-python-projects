@@ -41,6 +41,7 @@ assert users == [
 ], f"Expected `users` to be ['ashley', 'elizabeth', 'dalton'] but got: {repr(users)}"
 
 # 6) Return a list of values from the emails dictionary as `email_list`
+email_list = list(emails.values())
 
 assert email_list == [
     "ashley@example.com",
